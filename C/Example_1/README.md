@@ -19,3 +19,5 @@ To run, type:
 ```
 
 If you run *QGroundControl* on the same machine, a MAV should pop up.
+
+QGroundControl returns data, but will not actually "connect" to the example (it will continue to display the message Waiting for Vehicle Connection).
