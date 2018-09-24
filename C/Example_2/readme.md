@@ -1,5 +1,7 @@
 # MAVLink with UART
 
+In this example, we have two program commute via serial port instead of udp in example 1.
+
 ```bash
 sudo apt install socat
 sudo socat PTY,link=/dev/ttyS0 PTY,link=/dev/ttyS1

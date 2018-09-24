@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mavlink.h": "c",
+        "common.h": "c",
+        "new_message.h": "c"
+    }
+}

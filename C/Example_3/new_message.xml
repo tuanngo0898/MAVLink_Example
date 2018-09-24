@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<mavlink>
+  <version>1</version>
+  <dialect>0</dialect>
+  <enums>
+    <enum name="MESSAGE_TYPE">
+      <description>Message type</description>
+      <entry value="0" name="TYPE_0">
+        <description>This is message type 0.</description>
+      </entry>
+      <entry value="1" name="TYPE_1">
+        <description>This is message type 1.</description>
+      </entry>
+      <entry value="2" name="TYPE_2">
+        <description>This is message type 2.</description>
+      </entry>
+    </enum>
+  </enums>
+  <messages>
+    <message id="0" name="HELLO">
+        <description>This is a hello world message</description>
+        <field type="uint8_t" name="type" enum="MESSAGE_TYPE">Type of message.</field>
+        <field type="uint8_t" name="int8_num" units="u">A int8_number.</field>
+        <field type="uint16_t" name="int16_num" units="u">A int16_number.</field>
+         <field type="float" name="float_num" units="u">A int8_number.</field>
+    </message>
+  </messages>
+</mavlink>
